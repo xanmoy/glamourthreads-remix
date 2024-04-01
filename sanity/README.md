@@ -1,5 +1,5 @@
 # Glamour Threads Ecommerce Website
-![Glamour Threads](https://drive.google.com/file/d/1shdY9FGLf75HXornQJWCchUyjWM7vNom/view?usp=sharing)
+![Glamour Threads](https://github.com/xanmoy/glamourthreads-remix/blob/main/public/a-cinematic-and-captivating-cover-image-for-the-gl-6dRV1ia6TYOqCxPzxAltVA-naJbcYYkTIaTvmFxsLZuMg-.jpeg?raw=true)
 ## Overview
 Glamour Threads is an ecommerce website designed to provide users with a seamless shopping experience for high-quality clothing and accessories. Built using Remix Framework, Vite, Tailwind CSS, Sanity, and Stripe, Glamour Threads offers a modern and responsive platform for both customers and administrators.
 
