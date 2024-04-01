@@ -76,7 +76,7 @@ const ShoppingCartModal = () => {
                                                     </h1>
                                                     <button
                                                         onClick={toggleShowCart}
-                                                        className="bg-indigo-600 px-4 py-2 rounded-lg text-white mt-6 text-xl"
+                                                        className="bg-pink-400 px-4 py-2 rounded-lg text-white mt-6 text-xl"
                                                     >
                                                         Add Items
                                                     </button>
@@ -116,7 +116,7 @@ const ShoppingCartModal = () => {
                                                                             <div className="flex">
                                                                                 <button
                                                                                     type="button"
-                                                                                    className="font-medium text-indigo-600 hover:text-indigo-500"
+                                                                                    className="font-medium text-pink-400 hover:text-pink-500"
                                                                                     onClick={() => removeItem(product)}
                                                                                 >
                                                                                     Remove
@@ -152,7 +152,7 @@ const ShoppingCartModal = () => {
 
                                                         <button
                                                             type="submit"
-                                                            className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-6 py-3 text-base font-medum text-white"
+                                                            className="flex w-full items-center justify-center rounded-md border border-transparent bg-pink-400 px-6 py-3 text-base font-medum text-white"
                                                         >
                                                             Checkout
                                                         </button>

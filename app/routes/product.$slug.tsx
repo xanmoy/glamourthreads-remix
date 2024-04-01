@@ -28,7 +28,7 @@ const ProductSlug = () => {
     const addToCart = useCartState((state) => state.addToCart);
 
     return (
-        <main className="mt-5 m-9">
+        <main className="mt-5 m-12">
             <div className="lg:grid lg:grid-cols-2 lg:gap-x-8 lg:items-start">
                 <Tab.Group as="div" className="flex flex-col-reverse">
                     {/* Image Selector */}
@@ -94,7 +94,7 @@ const ProductSlug = () => {
                         <div className="mt-10 flex sm:flex-col-1">
                             <button
                                 onClick={() => addToCart(data)}
-                                className="w-full flex-1 bg-indigo-600 border border-transparent rounded-md py-3 flex items-center justify-center text-base font-medium text-white hover:bg-indigo-500"
+                                className="w-full flex-1 bg-pink-400 border border-transparent rounded-md py-3 flex items-center justify-center text-base font-medium text-white hover:bg-indigo-500"
                             >
                                 Add To Cart
                             </button>

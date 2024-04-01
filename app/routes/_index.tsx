@@ -32,7 +32,7 @@ const IndexPage = () => {
     <>
       <section className="flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row mt-12">
         <div className="flex flex-col justify-center sm:text-center lg:py-12 lg:text-left xl:w-5/12 xl:py-24">
-          <p className="mb-4 font-semibold text-indigo-600 md:mb-6 md:text-lg xl:text-xl">
+          <p className="mb-4 font-semibold text-pink-400 md:mb-6 md:text-lg xl:text-xl">
             Welcome to Glamour Threads
           </p>
 
@@ -46,7 +46,7 @@ const IndexPage = () => {
           <div>
             <Link
               to="#products"
-              className="rounded-lg bg-indigo-600 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 md:text-base"
+              className="rounded-lg bg-pink-400 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 md:text-base"
             >
               Shop Now
             </Link>
