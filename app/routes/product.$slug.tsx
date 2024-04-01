@@ -94,7 +94,7 @@ const ProductSlug = () => {
                         <div className="mt-10 flex sm:flex-col-1">
                             <button
                                 onClick={() => addToCart(data)}
-                                className="w-full flex-1 bg-pink-400 border border-transparent rounded-md py-3 flex items-center justify-center text-base font-medium text-white hover:bg-indigo-500"
+                                className="w-full flex-1 bg-pink-400 border border-transparent rounded-md py-3 flex items-center justify-center text-base font-medium text-white hover:bg-pink-500"
                             >
                                 Add To Cart
                             </button>
