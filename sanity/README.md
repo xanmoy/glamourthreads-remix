@@ -4,7 +4,6 @@
 Glamour Threads is an ecommerce website designed to provide users with a seamless shopping experience for high-quality clothing and accessories. Built using Remix Framework, Vite, Tailwind CSS, Sanity, and Stripe, Glamour Threads offers a modern and responsive platform for both customers and administrators.
 
 ## Features
-- **User Authentication**: Secure user authentication system for creating accounts and logging in.
 - **Product Catalog**: Browse through a diverse range of clothing items and accessories.
 - **Product Search**: Easily find desired products through the search functionality.
 - **Product Details**: Detailed information and images provided for each product.
