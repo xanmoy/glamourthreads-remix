@@ -1,3 +1,5 @@
+import CurrencyDisplay from '../serializers/currency';
+
 export default {
     name: 'product',
     title: 'Product',
@@ -8,10 +10,21 @@ export default {
             title: 'Name',
             type: 'string',
         },
+        // {
+        //     name: 'price',
+        //     title: 'Price',
+        //     type: 'number',
+        // },
         {
             name: 'price',
             title: 'Price',
             type: 'number',
+            description: 'Enter the price of the item',
+            validation: Rule => Rule.required(),
+            // Use the custom serializer
+            options: {
+                inputComponent: CurrencyDisplay
+            }
         },
         {
             name: 'slug',
